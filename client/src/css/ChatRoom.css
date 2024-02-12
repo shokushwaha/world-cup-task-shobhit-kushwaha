@@ -1,0 +1,126 @@
+.mainWrap {
+    background-color: azure;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outerBox {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.innerBox {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: azure;
+}
+
+.title {
+    background-color: azure;
+    padding: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+    border-radius: 4px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-bottom: 4px solid azure;
+}
+
+.wrap {
+    border-radius: 4px;
+    padding: 4px;
+    min-height: 85%;
+    overflow-y: scroll;
+    background-color: azure;
+    margin-top: -10px;
+}
+
+.sender {
+    display: flex;
+    justify-content: end;
+    padding: 4px;
+}
+
+.sendMsg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 4px;
+    border-radius: 4px;
+    width: auto;
+    background-color: rgb(72, 109, 254);
+    border: 1px solid rgb(72, 109, 254);
+    padding: 8px;
+    color: azure;
+}
+
+.msgName {
+    font-family: monospace;
+    margin: 0px 4px;
+    margin-right: 8px;
+}
+
+.time {
+    color: rgb(60, 59, 59);
+}
+
+.mainMsg {
+    font-family: cursive;
+}
+
+.receiver {
+    display: flex;
+    justify-content: start;
+    padding: 4px;
+}
+
+.receiveMsg {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 4px;
+    width: auto;
+    color: black;
+    background-color: rgb(247, 187, 91);
+    border: 1px solid rgb(247, 187, 91);
+}
+
+
+.sendForm {
+    display: flex;
+    background-color: rgb(72, 109, 254);
+}
+
+.sendInput {
+    border-radius: 4px;
+    width: 90vw;
+}
+
+
+.sendBtn {
+    background-color: rgb(72, 109, 254);
+    color: azure;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    width: 10vw;
+    margin: 4px auto;
+
+}
+
+.sendBtn:hover {
+    transform: scale(1.01);
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+input:focus {
+    background-color: rgb(188, 215, 255);
+}
